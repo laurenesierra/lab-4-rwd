@@ -1,0 +1,74 @@
+header {
+  background-color: blueviolet;
+}
+
+main section:first-child {
+  background-color: crimson;
+}
+
+main section:nth-child(2) {
+  background-color: coral;
+}
+
+main section:nth-child(3) {
+  background-color: rgb(199, 52, 101);
+}
+
+#efgh section:first-child {
+background-color: rgb(25, 25, 241);
+}
+
+#efgh section:last-child {
+  background-color: rgb(250, 88, 28);
+  }
+
+#efgh section:nth-child(2) {
+  background-color: rgb(8, 184, 8);
+}
+
+#efgh section:nth-child(3) {
+  background-color: rgb(84, 84, 231);
+}
+
+footer {
+  background-color: rgb(228, 213, 13);
+}
+
+@media (min-width: 768px) {
+
+  header {
+    background-color: rgb(218, 61, 61);
+  }
+  
+  main section:first-child {
+    background-color: rgb(197, 113, 130);
+  }
+  
+  main section:nth-child(2) {
+    background-color: rgb(214, 134, 105);
+  }
+  
+  main section:nth-child(3) {
+    background-color: rgb(190, 84, 119);
+  }
+  
+  #efgh section:first-child {
+  background-color: rgb(77, 77, 185);
+  }
+  
+  #efgh section:last-child {
+    background-color: rgb(199, 105, 71);
+    }
+  
+  #efgh section:nth-child(2) {
+    background-color: rgb(114, 189, 114);
+  }
+  
+  #efgh section:nth-child(3) {
+    background-color: rgb(120, 120, 202);
+  }
+  
+  footer {
+    background-color: rgb(201, 192, 73);
+  }
+}

@@ -1,0 +1,91 @@
+body {
+  width: 480px;
+  height: 767px;
+  /* margin: auto; */
+}
+
+header {
+  /* display: flex; */
+  border: black solid 3px;
+  height: 75px;
+  width: 100%;
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+
+section {
+  /* display: flex; */
+  height: 125px;
+  width: 100%;
+  border: 3px black solid;
+  /* align-items: center; */
+  /* justify-content: center; */
+}
+
+section:first-child {
+  height: 150px;
+}
+
+#efgh section {
+width: 50%;
+height: 250px;
+/* float: left; */
+}
+
+footer {
+  /* display: flex; */
+  border: black solid 3px;
+  height: 80px;
+  width: 100%;
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+
+@media (min-width: 768px) {
+
+  body {
+    width: 960px;
+    height: 768px;
+  }
+
+  main {
+    overflow: hidden;
+  }
+
+  header {
+    border: black solid 3px;
+    height: 100px;
+    width: 100%;
+    /* justify-content: center; */
+    /* align-items: center; */
+  }
+
+  section {
+    height: 200px;
+    width: 380px;
+    border: 3px black solid;
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* float: left; */
+  }
+
+  main section:first-child {
+    width: 200px;
+    height: 600px;
+    /* float: left; */
+    /* align-items: center; */
+    /* justify-content: center; */
+  }
+
+#efgh section {
+  width: 190px;
+  height: 250px;
+  /* float: left; */
+  }
+
+  footer {
+    width: 760px;
+    height: 150px;
+    /* float: right; */
+  }
+}
