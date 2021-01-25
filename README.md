@@ -7,6 +7,9 @@ For the desktop view, the content should be inside of a channel that is a maximu
 
 Each box should have a unique background color in mobile view and in desktop view. These changes should be observed when the screen size changes and the page is refreshed.
 
+## Collaborators:
+- Glenn Clark
+
 ## Wire frames:
 
 [desktop-view](https://codefellows.github.io/code-301-guide/curriculum/class-01/lab/comps/desktop-view.png)
