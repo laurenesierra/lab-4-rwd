@@ -2,31 +2,30 @@ header {
   background-color: blueviolet;
 }
 
-main section:first-child {
+section:nth-of-type(1) {
   background-color: crimson;
 }
 
-main section:nth-child(2) {
+section:nth-of-type(2) {
   background-color: coral;
 }
 
-main section:nth-child(3) {
+section:nth-of-type(3) {
   background-color: rgb(199, 52, 101);
 }
 
-#efgh section:first-child {
+section:nth-of-type(4) {
 background-color: rgb(25, 25, 241);
 }
-
-#efgh section:last-child {
+section:nth-of-type(5) {
   background-color: rgb(250, 88, 28);
   }
 
-#efgh section:nth-child(2) {
+  section:nth-of-type(6) {
   background-color: rgb(8, 184, 8);
 }
 
-#efgh section:nth-child(3) {
+section:nth-of-type(7) {
   background-color: rgb(84, 84, 231);
 }
 
@@ -70,5 +69,44 @@ footer {
   
   footer {
     background-color: rgb(201, 192, 73);
+  }
+}
+
+@media (min-width: 960px) {
+
+  header {
+    background-color: rgb(202, 218, 61);
+  }
+  
+  main section:first-child {
+    background-color: rgb(128, 21, 42);
+  }
+  
+  main section:nth-child(2) {
+    background-color: rgb(253, 68, 0);
+  }
+  
+  main section:nth-child(3) {
+    background-color: rgb(240, 0, 0);
+  }
+  
+  #efgh section:first-child {
+  background-color: rgb(0, 0, 204);
+  }
+  
+  #efgh section:last-child {
+    background-color: rgb(39, 184, 152);
+    }
+  
+  #efgh section:nth-child(2) {
+    background-color: rgb(0, 211, 0);
+  }
+  
+  #efgh section:nth-child(3) {
+    background-color: rgb(153, 76, 163);
+  }
+  
+  footer {
+    background-color: rgb(69, 173, 151);
   }
 }
